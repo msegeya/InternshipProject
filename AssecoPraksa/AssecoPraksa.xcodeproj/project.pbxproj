@@ -1,0 +1,1139 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520E750B1ADC017A00BEE523 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61BA1ADBFBCC0020A26D /* GoogleMaps.framework */; };
+		520E750E1ADD35EB00BEE523 /* ATMsLocationDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E750D1ADD35EB00BEE523 /* ATMsLocationDetailController.m */; };
+		520E75111ADD361100BEE523 /* ATMsLocationTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E75101ADD361100BEE523 /* ATMsLocationTableController.m */; };
+		520E75141ADD3DE800BEE523 /* ATMsLocationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E75131ADD3DE700BEE523 /* ATMsLocationNavigationController.m */; };
+		520E75181ADD4CC300BEE523 /* ATMLocationsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E75171ADD4CC300BEE523 /* ATMLocationsCell.m */; };
+		520E751E1ADD4F4000BEE523 /* ExchangeRateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61631ADBBE8E0020A26D /* ExchangeRateModel.m */; };
+		520E751F1ADD4F4000BEE523 /* ATMsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB616C1ADBBEE80020A26D /* ATMsModel.m */; };
+		520E75201ADD4F4000BEE523 /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61AF1ADBD9B00020A26D /* JNKeychain.m */; };
+		520E75211ADD4F4000BEE523 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61761ADBBF7D0020A26D /* Status.m */; };
+		520E75221ADD4F4000BEE523 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB614D1ADBBBA40020A26D /* LoginViewController.m */; };
+		520E75231ADD4F4000BEE523 /* WorkingHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB616E1ADBBEE80020A26D /* WorkingHours.m */; };
+		520E75241ADD4F4000BEE523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60C71AD516D70020A26D /* AppDelegate.m */; };
+		520E75251ADD4F4000BEE523 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61871ADBBFE10020A26D /* JSONModel.m */; };
+		520E75261ADD4F4000BEE523 /* ATMsLocationDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E750D1ADD35EB00BEE523 /* ATMsLocationDetailController.m */; };
+		520E75271ADD4F4000BEE523 /* ATMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB616A1ADBBEE80020A26D /* ATMLocation.m */; };
+		520E75281ADD4F4000BEE523 /* ATMsLocationTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E75101ADD361100BEE523 /* ATMsLocationTableController.m */; };
+		520E75291ADD4F4000BEE523 /* ATMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61681ADBBEE80020A26D /* ATMAddress.m */; };
+		520E752A1ADD4F4000BEE523 /* ResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61891ADBBFE10020A26D /* ResponseData.m */; };
+		520E752B1ADD4F4000BEE523 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61591ADBBD890020A26D /* Currency.m */; };
+		520E752C1ADD4F4000BEE523 /* ExchangeRateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61B21ADBE18B0020A26D /* ExchangeRateCell.m */; };
+		520E752D1ADD4F4000BEE523 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61511ADBBC2C0020A26D /* Account.m */; };
+		520E752E1ADD4F4000BEE523 /* ATMsMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61B81ADBF3AC0020A26D /* ATMsMapsViewController.m */; };
+		520E752F1ADD4F4000BEE523 /* TransactionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB615E1ADBBE1E0020A26D /* TransactionDetailViewController.m */; };
+		520E75301ADD4F4000BEE523 /* APILayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61491ADBBAEB0020A26D /* APILayer.m */; };
+		520E75311ADD4F4000BEE523 /* ExchangeRateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61B51ADBE27C0020A26D /* ExchangeRateController.m */; };
+		520E75321ADD4F4000BEE523 /* TransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB617C1ADBBF7D0020A26D /* TransactionCell.m */; };
+		520E75331ADD4F4000BEE523 /* TransactionUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB617A1ADBBF7D0020A26D /* TransactionUser.m */; };
+		520E75341ADD4F4000BEE523 /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE514851ADBB64E00FE6188 /* AlertHelper.m */; };
+		520E75351ADD4F4000BEE523 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61541ADBBC980020A26D /* UserData.m */; };
+		520E75361ADD4F4000BEE523 /* TransactionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB617E1ADBBF7D0020A26D /* TransactionsTableViewController.m */; };
+		520E75371ADD4F4000BEE523 /* ATMLocationsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E75171ADD4CC300BEE523 /* ATMLocationsCell.m */; };
+		520E75381ADD4F4000BEE523 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61781ADBBF7D0020A26D /* Transaction.m */; };
+		520E75391ADD4F4000BEE523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60C41AD516D70020A26D /* main.m */; };
+		520E753A1ADD4F4000BEE523 /* ATMsLocationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E75131ADD3DE700BEE523 /* ATMsLocationNavigationController.m */; };
+		520E753C1ADD4F4000BEE523 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61BA1ADBFBCC0020A26D /* GoogleMaps.framework */; };
+		520E753D1ADD4F4000BEE523 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61D41ADBFD480020A26D /* SystemConfiguration.framework */; };
+		520E753E1ADD4F4000BEE523 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61D21ADBFD3D0020A26D /* QuartzCore.framework */; };
+		520E753F1ADD4F4000BEE523 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61D01ADBFD340020A26D /* OpenGLES.framework */; };
+		520E75401ADD4F4000BEE523 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61CE1ADBFD280020A26D /* libicucore.dylib */; };
+		520E75411ADD4F4000BEE523 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61CC1ADBFD160020A26D /* libz.dylib */; };
+		520E75421ADD4F4000BEE523 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61CA1ADBFD0E0020A26D /* libc++.dylib */; };
+		520E75431ADD4F4000BEE523 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C81ADBFCFB0020A26D /* ImageIO.framework */; };
+		520E75441ADD4F4000BEE523 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C61ADBFCF10020A26D /* GLKit.framework */; };
+		520E75451ADD4F4000BEE523 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C41ADBFCE10020A26D /* CoreText.framework */; };
+		520E75461ADD4F4000BEE523 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C21ADBFCD60020A26D /* CoreLocation.framework */; };
+		520E75471ADD4F4000BEE523 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C01ADBFCCF0020A26D /* CoreData.framework */; };
+		520E75481ADD4F4000BEE523 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61BE1ADBFCC40020A26D /* AVFoundation.framework */; };
+		520E75491ADD4F4000BEE523 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61081AD66C4C0020A26D /* Security.framework */; };
+		520E754B1ADD4F4000BEE523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60CC1AD516D70020A26D /* Main.storyboard */; };
+		520E754C1ADD4F4000BEE523 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60EE1AD51A390020A26D /* Localizable.strings */; };
+		520E754D1ADD4F4000BEE523 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60D11AD516D70020A26D /* LaunchScreen.xib */; };
+		520E754E1ADD4F4000BEE523 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60CF1AD516D70020A26D /* Images.xcassets */; };
+		520E754F1ADD4F4000BEE523 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52CB61BC1ADBFC220020A26D /* GoogleMaps.bundle */; };
+		520E75591ADFA99A00BEE523 /* ActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520E75581ADFA99900BEE523 /* ActivityIndicatorView.xib */; };
+		520E755C1ADFB0A500BEE523 /* ActivityIndicatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E755B1ADFB0A500BEE523 /* ActivityIndicatorController.m */; };
+		520E755F1ADFBF5200BEE523 /* ASConfigList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520E755E1ADFBF5200BEE523 /* ASConfigList.plist */; };
+		520E75631ADFC9BE00BEE523 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 520E75621ADFC9BE00BEE523 /* Helper.m */; };
+		524024E91AEE203A00F3E8DC /* SetingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524024E81AEE203A00F3E8DC /* SetingsTableViewController.m */; };
+		524024EE1AEFA2F100F3E8DC /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524024EC1AEFA2F100F3E8DC /* DatePickerViewController.m */; };
+		524024EF1AEFA2F100F3E8DC /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524024ED1AEFA2F100F3E8DC /* DatePickerViewController.xib */; };
+		524024F31AEFA8BF00F3E8DC /* FilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524024F21AEFA8BF00F3E8DC /* FilterTableViewController.m */; };
+		5280ECD71AF1095100AF4C6C /* TableListPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280ECD51AF1095100AF4C6C /* TableListPickerController.m */; };
+		5280ECD81AF1095200AF4C6C /* TableListPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5280ECD61AF1095100AF4C6C /* TableListPickerController.xib */; };
+		52A6585A1AF2600F00BBE991 /* FilterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A658591AF2600F00BBE991 /* FilterData.m */; };
+		52CB60C51AD516D70020A26D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60C41AD516D70020A26D /* main.m */; };
+		52CB60C81AD516D70020A26D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60C71AD516D70020A26D /* AppDelegate.m */; };
+		52CB60CE1AD516D70020A26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60CC1AD516D70020A26D /* Main.storyboard */; };
+		52CB60D01AD516D70020A26D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60CF1AD516D70020A26D /* Images.xcassets */; };
+		52CB60D31AD516D70020A26D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60D11AD516D70020A26D /* LaunchScreen.xib */; };
+		52CB60DF1AD516D70020A26D /* AssecoPraksaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60DE1AD516D70020A26D /* AssecoPraksaTests.m */; };
+		52CB60EC1AD51A390020A26D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60EE1AD51A390020A26D /* Localizable.strings */; };
+		52CB61091AD66C4C0020A26D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61081AD66C4C0020A26D /* Security.framework */; };
+		52CB614A1ADBBAEB0020A26D /* APILayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61491ADBBAEB0020A26D /* APILayer.m */; };
+		52CB614E1ADBBBA40020A26D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB614D1ADBBBA40020A26D /* LoginViewController.m */; };
+		52CB61521ADBBC2C0020A26D /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61511ADBBC2C0020A26D /* Account.m */; };
+		52CB61551ADBBC980020A26D /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61541ADBBC980020A26D /* UserData.m */; };
+		52CB615B1ADBBD890020A26D /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61591ADBBD890020A26D /* Currency.m */; };
+		52CB615F1ADBBE1E0020A26D /* TransactionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB615E1ADBBE1E0020A26D /* TransactionDetailViewController.m */; };
+		52CB61641ADBBE8E0020A26D /* ExchangeRateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61631ADBBE8E0020A26D /* ExchangeRateModel.m */; };
+		52CB616F1ADBBEE80020A26D /* ATMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61681ADBBEE80020A26D /* ATMAddress.m */; };
+		52CB61701ADBBEE80020A26D /* ATMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB616A1ADBBEE80020A26D /* ATMLocation.m */; };
+		52CB61711ADBBEE80020A26D /* ATMsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB616C1ADBBEE80020A26D /* ATMsModel.m */; };
+		52CB61721ADBBEE80020A26D /* WorkingHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB616E1ADBBEE80020A26D /* WorkingHours.m */; };
+		52CB617F1ADBBF7D0020A26D /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61761ADBBF7D0020A26D /* Status.m */; };
+		52CB61801ADBBF7D0020A26D /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61781ADBBF7D0020A26D /* Transaction.m */; };
+		52CB61811ADBBF7D0020A26D /* TransactionUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB617A1ADBBF7D0020A26D /* TransactionUser.m */; };
+		52CB61821ADBBF7D0020A26D /* TransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB617C1ADBBF7D0020A26D /* TransactionCell.m */; };
+		52CB61831ADBBF7D0020A26D /* TransactionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB617E1ADBBF7D0020A26D /* TransactionsTableViewController.m */; };
+		52CB618A1ADBBFE10020A26D /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61871ADBBFE10020A26D /* JSONModel.m */; };
+		52CB618B1ADBBFE10020A26D /* ResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61891ADBBFE10020A26D /* ResponseData.m */; };
+		52CB61B01ADBD9B00020A26D /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61AF1ADBD9B00020A26D /* JNKeychain.m */; };
+		52CB61B31ADBE18B0020A26D /* ExchangeRateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61B21ADBE18B0020A26D /* ExchangeRateCell.m */; };
+		52CB61B61ADBE27C0020A26D /* ExchangeRateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61B51ADBE27C0020A26D /* ExchangeRateController.m */; };
+		52CB61B91ADBF3AC0020A26D /* ATMsMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB61B81ADBF3AC0020A26D /* ATMsMapsViewController.m */; };
+		52CB61BD1ADBFC220020A26D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52CB61BC1ADBFC220020A26D /* GoogleMaps.bundle */; };
+		52CB61BF1ADBFCC40020A26D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61BE1ADBFCC40020A26D /* AVFoundation.framework */; };
+		52CB61C11ADBFCCF0020A26D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C01ADBFCCF0020A26D /* CoreData.framework */; };
+		52CB61C31ADBFCD60020A26D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C21ADBFCD60020A26D /* CoreLocation.framework */; };
+		52CB61C51ADBFCE10020A26D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C41ADBFCE10020A26D /* CoreText.framework */; };
+		52CB61C71ADBFCF10020A26D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C61ADBFCF10020A26D /* GLKit.framework */; };
+		52CB61C91ADBFCFB0020A26D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61C81ADBFCFB0020A26D /* ImageIO.framework */; };
+		52CB61CB1ADBFD0E0020A26D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61CA1ADBFD0E0020A26D /* libc++.dylib */; };
+		52CB61CD1ADBFD160020A26D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61CC1ADBFD160020A26D /* libz.dylib */; };
+		52CB61CF1ADBFD280020A26D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61CE1ADBFD280020A26D /* libicucore.dylib */; };
+		52CB61D11ADBFD340020A26D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61D01ADBFD340020A26D /* OpenGLES.framework */; };
+		52CB61D31ADBFD3D0020A26D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61D21ADBFD3D0020A26D /* QuartzCore.framework */; };
+		52CB61D51ADBFD480020A26D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CB61D41ADBFD480020A26D /* SystemConfiguration.framework */; };
+		52F9AB351AE0FD2D00D38DBF /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9AB341AE0FD2D00D38DBF /* ProfileController.m */; };
+		52F9AB3A1AE0FF3A00D38DBF /* ProfileTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9AB391AE0FF3A00D38DBF /* ProfileTableController.m */; };
+		6AE514861ADBB64E00FE6188 /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE514851ADBB64E00FE6188 /* AlertHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52CB60D91AD516D70020A26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52CB60B71AD516D70020A26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52CB60BE1AD516D70020A26D;
+			remoteInfo = AssecoPraksa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520E750C1ADD35EB00BEE523 /* ATMsLocationDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMsLocationDetailController.h; sourceTree = "<group>"; };
+		520E750D1ADD35EB00BEE523 /* ATMsLocationDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMsLocationDetailController.m; sourceTree = "<group>"; };
+		520E750F1ADD361100BEE523 /* ATMsLocationTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMsLocationTableController.h; sourceTree = "<group>"; };
+		520E75101ADD361100BEE523 /* ATMsLocationTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMsLocationTableController.m; sourceTree = "<group>"; };
+		520E75121ADD3DE700BEE523 /* ATMsLocationNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMsLocationNavigationController.h; sourceTree = "<group>"; };
+		520E75131ADD3DE700BEE523 /* ATMsLocationNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMsLocationNavigationController.m; sourceTree = "<group>"; };
+		520E75161ADD4CC300BEE523 /* ATMLocationsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMLocationsCell.h; sourceTree = "<group>"; };
+		520E75171ADD4CC300BEE523 /* ATMLocationsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMLocationsCell.m; sourceTree = "<group>"; };
+		520E75531ADD4F4000BEE523 /* AssecoPraksa copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AssecoPraksa copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520E75581ADFA99900BEE523 /* ActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityIndicatorView.xib; sourceTree = "<group>"; };
+		520E755A1ADFB0A500BEE523 /* ActivityIndicatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorController.h; sourceTree = "<group>"; };
+		520E755B1ADFB0A500BEE523 /* ActivityIndicatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorController.m; sourceTree = "<group>"; };
+		520E755E1ADFBF5200BEE523 /* ASConfigList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ASConfigList.plist; sourceTree = "<group>"; };
+		520E75601ADFC07900BEE523 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		520E75611ADFC9BE00BEE523 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		520E75621ADFC9BE00BEE523 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		524024E71AEE203A00F3E8DC /* SetingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetingsTableViewController.h; sourceTree = "<group>"; };
+		524024E81AEE203A00F3E8DC /* SetingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetingsTableViewController.m; sourceTree = "<group>"; };
+		524024EB1AEFA2F100F3E8DC /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		524024EC1AEFA2F100F3E8DC /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		524024ED1AEFA2F100F3E8DC /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		524024F11AEFA8BF00F3E8DC /* FilterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterTableViewController.h; sourceTree = "<group>"; };
+		524024F21AEFA8BF00F3E8DC /* FilterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTableViewController.m; sourceTree = "<group>"; };
+		5280ECD41AF1095100AF4C6C /* TableListPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableListPickerController.h; sourceTree = "<group>"; };
+		5280ECD51AF1095100AF4C6C /* TableListPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableListPickerController.m; sourceTree = "<group>"; };
+		5280ECD61AF1095100AF4C6C /* TableListPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableListPickerController.xib; sourceTree = "<group>"; };
+		52A658581AF2600F00BBE991 /* FilterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterData.h; sourceTree = "<group>"; };
+		52A658591AF2600F00BBE991 /* FilterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterData.m; sourceTree = "<group>"; };
+		52A6585F1AF798CF00BBE991 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Main.strings; sourceTree = "<group>"; };
+		52CB60BF1AD516D70020A26D /* AssecoPraksa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssecoPraksa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CB60C31AD516D70020A26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CB60C41AD516D70020A26D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52CB60C61AD516D70020A26D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52CB60C71AD516D70020A26D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52CB60CD1AD516D70020A26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52CB60CF1AD516D70020A26D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52CB60D21AD516D70020A26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52CB60D81AD516D70020A26D /* AssecoPraksaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssecoPraksaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CB60DD1AD516D70020A26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CB60DE1AD516D70020A26D /* AssecoPraksaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssecoPraksaTests.m; sourceTree = "<group>"; };
+		52CB60E91AD518DB0020A26D /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		52CB60ED1AD51A390020A26D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52CB60EF1AD51A490020A26D /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52CB61081AD66C4C0020A26D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		52CB61481ADBBAEB0020A26D /* APILayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APILayer.h; sourceTree = "<group>"; };
+		52CB61491ADBBAEB0020A26D /* APILayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APILayer.m; sourceTree = "<group>"; };
+		52CB614C1ADBBBA40020A26D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		52CB614D1ADBBBA40020A26D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		52CB61501ADBBC2C0020A26D /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		52CB61511ADBBC2C0020A26D /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		52CB61531ADBBC980020A26D /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		52CB61541ADBBC980020A26D /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		52CB61591ADBBD890020A26D /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		52CB615A1ADBBD890020A26D /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		52CB615D1ADBBE1E0020A26D /* TransactionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailViewController.h; sourceTree = "<group>"; };
+		52CB615E1ADBBE1E0020A26D /* TransactionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailViewController.m; sourceTree = "<group>"; };
+		52CB61621ADBBE8E0020A26D /* ExchangeRateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateModel.h; sourceTree = "<group>"; };
+		52CB61631ADBBE8E0020A26D /* ExchangeRateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRateModel.m; sourceTree = "<group>"; };
+		52CB61671ADBBEE80020A26D /* ATMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMAddress.h; sourceTree = "<group>"; };
+		52CB61681ADBBEE80020A26D /* ATMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMAddress.m; sourceTree = "<group>"; };
+		52CB61691ADBBEE80020A26D /* ATMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMLocation.h; sourceTree = "<group>"; };
+		52CB616A1ADBBEE80020A26D /* ATMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMLocation.m; sourceTree = "<group>"; };
+		52CB616B1ADBBEE80020A26D /* ATMsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMsModel.h; sourceTree = "<group>"; };
+		52CB616C1ADBBEE80020A26D /* ATMsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMsModel.m; sourceTree = "<group>"; };
+		52CB616D1ADBBEE80020A26D /* WorkingHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkingHours.h; sourceTree = "<group>"; };
+		52CB616E1ADBBEE80020A26D /* WorkingHours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkingHours.m; sourceTree = "<group>"; };
+		52CB61751ADBBF7D0020A26D /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		52CB61761ADBBF7D0020A26D /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		52CB61771ADBBF7D0020A26D /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		52CB61781ADBBF7D0020A26D /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		52CB61791ADBBF7D0020A26D /* TransactionUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionUser.h; sourceTree = "<group>"; };
+		52CB617A1ADBBF7D0020A26D /* TransactionUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionUser.m; sourceTree = "<group>"; };
+		52CB617B1ADBBF7D0020A26D /* TransactionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionCell.h; sourceTree = "<group>"; };
+		52CB617C1ADBBF7D0020A26D /* TransactionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionCell.m; sourceTree = "<group>"; };
+		52CB617D1ADBBF7D0020A26D /* TransactionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsTableViewController.h; sourceTree = "<group>"; };
+		52CB617E1ADBBF7D0020A26D /* TransactionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsTableViewController.m; sourceTree = "<group>"; };
+		52CB61861ADBBFE10020A26D /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		52CB61871ADBBFE10020A26D /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		52CB61881ADBBFE10020A26D /* ResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseData.h; sourceTree = "<group>"; };
+		52CB61891ADBBFE10020A26D /* ResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseData.m; sourceTree = "<group>"; };
+		52CB618C1ADBCF010020A26D /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		52CB61AE1ADBD9B00020A26D /* JNKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKeychain.h; sourceTree = "<group>"; };
+		52CB61AF1ADBD9B00020A26D /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKeychain.m; sourceTree = "<group>"; };
+		52CB61B11ADBE18B0020A26D /* ExchangeRateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateCell.h; sourceTree = "<group>"; };
+		52CB61B21ADBE18B0020A26D /* ExchangeRateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRateCell.m; sourceTree = "<group>"; };
+		52CB61B41ADBE27C0020A26D /* ExchangeRateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateController.h; sourceTree = "<group>"; };
+		52CB61B51ADBE27C0020A26D /* ExchangeRateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRateController.m; sourceTree = "<group>"; };
+		52CB61B71ADBF3AC0020A26D /* ATMsMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMsMapsViewController.h; sourceTree = "<group>"; };
+		52CB61B81ADBF3AC0020A26D /* ATMsMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMsMapsViewController.m; sourceTree = "<group>"; };
+		52CB61BA1ADBFBCC0020A26D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		52CB61BC1ADBFC220020A26D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		52CB61BE1ADBFCC40020A26D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52CB61C01ADBFCCF0020A26D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52CB61C21ADBFCD60020A26D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		52CB61C41ADBFCE10020A26D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		52CB61C61ADBFCF10020A26D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		52CB61C81ADBFCFB0020A26D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		52CB61CA1ADBFD0E0020A26D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		52CB61CC1ADBFD160020A26D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		52CB61CE1ADBFD280020A26D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		52CB61D01ADBFD340020A26D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		52CB61D21ADBFD3D0020A26D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		52CB61D41ADBFD480020A26D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52F9AB331AE0FD2D00D38DBF /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileController.h; sourceTree = "<group>"; };
+		52F9AB341AE0FD2D00D38DBF /* ProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileController.m; sourceTree = "<group>"; };
+		52F9AB381AE0FF3A00D38DBF /* ProfileTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableController.h; sourceTree = "<group>"; };
+		52F9AB391AE0FF3A00D38DBF /* ProfileTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableController.m; sourceTree = "<group>"; };
+		6AE5147F1ADBB57500FE6188 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AE514811ADBB58100FE6188 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AE514841ADBB64E00FE6188 /* AlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertHelper.h; sourceTree = "<group>"; };
+		6AE514851ADBB64E00FE6188 /* AlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertHelper.m; sourceTree = "<group>"; };
+		6AE514871ADBB6D300FE6188 /* AssecoPraksa.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssecoPraksa.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520E753B1ADD4F4000BEE523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E753C1ADD4F4000BEE523 /* GoogleMaps.framework in Frameworks */,
+				520E753D1ADD4F4000BEE523 /* SystemConfiguration.framework in Frameworks */,
+				520E753E1ADD4F4000BEE523 /* QuartzCore.framework in Frameworks */,
+				520E753F1ADD4F4000BEE523 /* OpenGLES.framework in Frameworks */,
+				520E75401ADD4F4000BEE523 /* libicucore.dylib in Frameworks */,
+				520E75411ADD4F4000BEE523 /* libz.dylib in Frameworks */,
+				520E75421ADD4F4000BEE523 /* libc++.dylib in Frameworks */,
+				520E75431ADD4F4000BEE523 /* ImageIO.framework in Frameworks */,
+				520E75441ADD4F4000BEE523 /* GLKit.framework in Frameworks */,
+				520E75451ADD4F4000BEE523 /* CoreText.framework in Frameworks */,
+				520E75461ADD4F4000BEE523 /* CoreLocation.framework in Frameworks */,
+				520E75471ADD4F4000BEE523 /* CoreData.framework in Frameworks */,
+				520E75481ADD4F4000BEE523 /* AVFoundation.framework in Frameworks */,
+				520E75491ADD4F4000BEE523 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CB60BC1AD516D70020A26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E750B1ADC017A00BEE523 /* GoogleMaps.framework in Frameworks */,
+				52CB61D51ADBFD480020A26D /* SystemConfiguration.framework in Frameworks */,
+				52CB61D31ADBFD3D0020A26D /* QuartzCore.framework in Frameworks */,
+				52CB61D11ADBFD340020A26D /* OpenGLES.framework in Frameworks */,
+				52CB61CF1ADBFD280020A26D /* libicucore.dylib in Frameworks */,
+				52CB61CD1ADBFD160020A26D /* libz.dylib in Frameworks */,
+				52CB61CB1ADBFD0E0020A26D /* libc++.dylib in Frameworks */,
+				52CB61C91ADBFCFB0020A26D /* ImageIO.framework in Frameworks */,
+				52CB61C71ADBFCF10020A26D /* GLKit.framework in Frameworks */,
+				52CB61C51ADBFCE10020A26D /* CoreText.framework in Frameworks */,
+				52CB61C31ADBFCD60020A26D /* CoreLocation.framework in Frameworks */,
+				52CB61C11ADBFCCF0020A26D /* CoreData.framework in Frameworks */,
+				52CB61BF1ADBFCC40020A26D /* AVFoundation.framework in Frameworks */,
+				52CB61091AD66C4C0020A26D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CB60D51AD516D70020A26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520E75151ADD4C9700BEE523 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				520E75161ADD4CC300BEE523 /* ATMLocationsCell.h */,
+				520E75171ADD4CC300BEE523 /* ATMLocationsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		520E75191ADD4D4000BEE523 /* ATMsDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				520E750C1ADD35EB00BEE523 /* ATMsLocationDetailController.h */,
+				520E750D1ADD35EB00BEE523 /* ATMsLocationDetailController.m */,
+			);
+			name = ATMsDetailView;
+			sourceTree = "<group>";
+		};
+		520E751A1ADD4D6100BEE523 /* ATMsMapView */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61B71ADBF3AC0020A26D /* ATMsMapsViewController.h */,
+				52CB61B81ADBF3AC0020A26D /* ATMsMapsViewController.m */,
+			);
+			name = ATMsMapView;
+			sourceTree = "<group>";
+		};
+		520E751B1ADD4D7A00BEE523 /* ATMsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				520E750F1ADD361100BEE523 /* ATMsLocationTableController.h */,
+				520E75101ADD361100BEE523 /* ATMsLocationTableController.m */,
+			);
+			name = ATMsTableView;
+			sourceTree = "<group>";
+		};
+		520E75571ADFA96E00BEE523 /* LoadingActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				520E75581ADFA99900BEE523 /* ActivityIndicatorView.xib */,
+				520E755A1ADFB0A500BEE523 /* ActivityIndicatorController.h */,
+				520E755B1ADFB0A500BEE523 /* ActivityIndicatorController.m */,
+			);
+			path = LoadingActivityView;
+			sourceTree = "<group>";
+		};
+		524024E61AEE1FE000F3E8DC /* SetingsView */ = {
+			isa = PBXGroup;
+			children = (
+				524024E71AEE203A00F3E8DC /* SetingsTableViewController.h */,
+				524024E81AEE203A00F3E8DC /* SetingsTableViewController.m */,
+			);
+			path = SetingsView;
+			sourceTree = "<group>";
+		};
+		524024EA1AEFA2A900F3E8DC /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				524024EB1AEFA2F100F3E8DC /* DatePickerViewController.h */,
+				524024EC1AEFA2F100F3E8DC /* DatePickerViewController.m */,
+				524024ED1AEFA2F100F3E8DC /* DatePickerViewController.xib */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		524024F01AEFA8A700F3E8DC /* FilterTableView */ = {
+			isa = PBXGroup;
+			children = (
+				524024F11AEFA8BF00F3E8DC /* FilterTableViewController.h */,
+				524024F21AEFA8BF00F3E8DC /* FilterTableViewController.m */,
+				52A658581AF2600F00BBE991 /* FilterData.h */,
+				52A658591AF2600F00BBE991 /* FilterData.m */,
+			);
+			path = FilterTableView;
+			sourceTree = "<group>";
+		};
+		5280ECD31AF1093300AF4C6C /* TableListPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5280ECD41AF1095100AF4C6C /* TableListPickerController.h */,
+				5280ECD51AF1095100AF4C6C /* TableListPickerController.m */,
+				5280ECD61AF1095100AF4C6C /* TableListPickerController.xib */,
+			);
+			path = TableListPicker;
+			sourceTree = "<group>";
+		};
+		52CB60B61AD516D70020A26D = {
+			isa = PBXGroup;
+			children = (
+				52CB60C11AD516D70020A26D /* AssecoPraksa */,
+				52CB60DB1AD516D70020A26D /* AssecoPraksaTests */,
+				6AE5147E1ADBB56000FE6188 /* Frameworks */,
+				52CB60C01AD516D70020A26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52CB60C01AD516D70020A26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52CB60BF1AD516D70020A26D /* AssecoPraksa.app */,
+				52CB60D81AD516D70020A26D /* AssecoPraksaTests.xctest */,
+				520E75531ADD4F4000BEE523 /* AssecoPraksa copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52CB60C11AD516D70020A26D /* AssecoPraksa */ = {
+			isa = PBXGroup;
+			children = (
+				524024E61AEE1FE000F3E8DC /* SetingsView */,
+				52F9AB321AE0FD0000D38DBF /* ProfileView */,
+				52CB61AD1ADBD9B00020A26D /* LIb */,
+				52CB61841ADBBFE10020A26D /* Common */,
+				52CB61731ADBBF7D0020A26D /* TransactionTableView */,
+				52CB61651ADBBEE80020A26D /* ATMsLocationsView */,
+				52CB61601ADBBE8E0020A26D /* ExchangeRateView */,
+				52CB615C1ADBBE1E0020A26D /* TransactionDetailView */,
+				52CB614B1ADBBB7D0020A26D /* LoginView */,
+				52CB61471ADBBAD10020A26D /* WebserviceLayer */,
+				6AE514831ADBB64200FE6188 /* Helplers */,
+				52CB60C61AD516D70020A26D /* AppDelegate.h */,
+				52CB60C71AD516D70020A26D /* AppDelegate.m */,
+				52CB60CC1AD516D70020A26D /* Main.storyboard */,
+				52CB60CF1AD516D70020A26D /* Images.xcassets */,
+				52CB60D11AD516D70020A26D /* LaunchScreen.xib */,
+				52CB60C21AD516D70020A26D /* Supporting Files */,
+				52CB60EE1AD51A390020A26D /* Localizable.strings */,
+			);
+			path = AssecoPraksa;
+			sourceTree = "<group>";
+		};
+		52CB60C21AD516D70020A26D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CB60C31AD516D70020A26D /* Info.plist */,
+				52CB60C41AD516D70020A26D /* main.m */,
+				6AE514871ADBB6D300FE6188 /* AssecoPraksa.pch */,
+				520E755E1ADFBF5200BEE523 /* ASConfigList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52CB60DB1AD516D70020A26D /* AssecoPraksaTests */ = {
+			isa = PBXGroup;
+			children = (
+				52CB60DE1AD516D70020A26D /* AssecoPraksaTests.m */,
+				52CB60DC1AD516D70020A26D /* Supporting Files */,
+			);
+			path = AssecoPraksaTests;
+			sourceTree = "<group>";
+		};
+		52CB60DC1AD516D70020A26D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CB60DD1AD516D70020A26D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52CB61471ADBBAD10020A26D /* WebserviceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61481ADBBAEB0020A26D /* APILayer.h */,
+				52CB61491ADBBAEB0020A26D /* APILayer.m */,
+			);
+			path = WebserviceLayer;
+			sourceTree = "<group>";
+		};
+		52CB614B1ADBBB7D0020A26D /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				52CB614F1ADBBBF30020A26D /* Model */,
+				52CB614C1ADBBBA40020A26D /* LoginViewController.h */,
+				52CB614D1ADBBBA40020A26D /* LoginViewController.m */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		52CB614F1ADBBBF30020A26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61591ADBBD890020A26D /* Currency.m */,
+				52CB615A1ADBBD890020A26D /* Currency.h */,
+				52CB61501ADBBC2C0020A26D /* Account.h */,
+				52CB61511ADBBC2C0020A26D /* Account.m */,
+				52CB61531ADBBC980020A26D /* UserData.h */,
+				52CB61541ADBBC980020A26D /* UserData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52CB615C1ADBBE1E0020A26D /* TransactionDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				52CB615D1ADBBE1E0020A26D /* TransactionDetailViewController.h */,
+				52CB615E1ADBBE1E0020A26D /* TransactionDetailViewController.m */,
+			);
+			path = TransactionDetailView;
+			sourceTree = "<group>";
+		};
+		52CB61601ADBBE8E0020A26D /* ExchangeRateView */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61611ADBBE8E0020A26D /* Model */,
+				52CB61B11ADBE18B0020A26D /* ExchangeRateCell.h */,
+				52CB61B21ADBE18B0020A26D /* ExchangeRateCell.m */,
+				52CB61B41ADBE27C0020A26D /* ExchangeRateController.h */,
+				52CB61B51ADBE27C0020A26D /* ExchangeRateController.m */,
+			);
+			path = ExchangeRateView;
+			sourceTree = "<group>";
+		};
+		52CB61611ADBBE8E0020A26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61621ADBBE8E0020A26D /* ExchangeRateModel.h */,
+				52CB61631ADBBE8E0020A26D /* ExchangeRateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52CB61651ADBBEE80020A26D /* ATMsLocationsView */ = {
+			isa = PBXGroup;
+			children = (
+				520E751B1ADD4D7A00BEE523 /* ATMsTableView */,
+				520E751A1ADD4D6100BEE523 /* ATMsMapView */,
+				520E75191ADD4D4000BEE523 /* ATMsDetailView */,
+				520E75151ADD4C9700BEE523 /* View */,
+				52CB61661ADBBEE80020A26D /* Model */,
+				520E75121ADD3DE700BEE523 /* ATMsLocationNavigationController.h */,
+				520E75131ADD3DE700BEE523 /* ATMsLocationNavigationController.m */,
+			);
+			path = ATMsLocationsView;
+			sourceTree = "<group>";
+		};
+		52CB61661ADBBEE80020A26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61671ADBBEE80020A26D /* ATMAddress.h */,
+				52CB61681ADBBEE80020A26D /* ATMAddress.m */,
+				52CB61691ADBBEE80020A26D /* ATMLocation.h */,
+				52CB616A1ADBBEE80020A26D /* ATMLocation.m */,
+				52CB616B1ADBBEE80020A26D /* ATMsModel.h */,
+				52CB616C1ADBBEE80020A26D /* ATMsModel.m */,
+				52CB616D1ADBBEE80020A26D /* WorkingHours.h */,
+				52CB616E1ADBBEE80020A26D /* WorkingHours.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52CB61731ADBBF7D0020A26D /* TransactionTableView */ = {
+			isa = PBXGroup;
+			children = (
+				524024F01AEFA8A700F3E8DC /* FilterTableView */,
+				52CB61741ADBBF7D0020A26D /* Model */,
+				52CB617B1ADBBF7D0020A26D /* TransactionCell.h */,
+				52CB617C1ADBBF7D0020A26D /* TransactionCell.m */,
+				52CB617D1ADBBF7D0020A26D /* TransactionsTableViewController.h */,
+				52CB617E1ADBBF7D0020A26D /* TransactionsTableViewController.m */,
+			);
+			path = TransactionTableView;
+			sourceTree = "<group>";
+		};
+		52CB61741ADBBF7D0020A26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61751ADBBF7D0020A26D /* Status.h */,
+				52CB61761ADBBF7D0020A26D /* Status.m */,
+				52CB61771ADBBF7D0020A26D /* Transaction.h */,
+				52CB61781ADBBF7D0020A26D /* Transaction.m */,
+				52CB61791ADBBF7D0020A26D /* TransactionUser.h */,
+				52CB617A1ADBBF7D0020A26D /* TransactionUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52CB61841ADBBFE10020A26D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5280ECD31AF1093300AF4C6C /* TableListPicker */,
+				524024EA1AEFA2A900F3E8DC /* DatePickerView */,
+				520E75571ADFA96E00BEE523 /* LoadingActivityView */,
+				52CB61851ADBBFE10020A26D /* Model */,
+				52CB618C1ADBCF010020A26D /* Macros.h */,
+				520E75601ADFC07900BEE523 /* Constants.h */,
+				520E75611ADFC9BE00BEE523 /* Helper.h */,
+				520E75621ADFC9BE00BEE523 /* Helper.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		52CB61851ADBBFE10020A26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61861ADBBFE10020A26D /* JSONModel.h */,
+				52CB61871ADBBFE10020A26D /* JSONModel.m */,
+				52CB61881ADBBFE10020A26D /* ResponseData.h */,
+				52CB61891ADBBFE10020A26D /* ResponseData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52CB61AD1ADBD9B00020A26D /* LIb */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61AE1ADBD9B00020A26D /* JNKeychain.h */,
+				52CB61AF1ADBD9B00020A26D /* JNKeychain.m */,
+			);
+			path = LIb;
+			sourceTree = "<group>";
+		};
+		52F9AB321AE0FD0000D38DBF /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				52F9AB331AE0FD2D00D38DBF /* ProfileController.h */,
+				52F9AB341AE0FD2D00D38DBF /* ProfileController.m */,
+				52F9AB381AE0FF3A00D38DBF /* ProfileTableController.h */,
+				52F9AB391AE0FF3A00D38DBF /* ProfileTableController.m */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		6AE5147E1ADBB56000FE6188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52CB61BA1ADBFBCC0020A26D /* GoogleMaps.framework */,
+				52CB61D41ADBFD480020A26D /* SystemConfiguration.framework */,
+				52CB61D21ADBFD3D0020A26D /* QuartzCore.framework */,
+				52CB61D01ADBFD340020A26D /* OpenGLES.framework */,
+				52CB61CE1ADBFD280020A26D /* libicucore.dylib */,
+				52CB61CC1ADBFD160020A26D /* libz.dylib */,
+				52CB61CA1ADBFD0E0020A26D /* libc++.dylib */,
+				52CB61C81ADBFCFB0020A26D /* ImageIO.framework */,
+				52CB61C61ADBFCF10020A26D /* GLKit.framework */,
+				52CB61C41ADBFCE10020A26D /* CoreText.framework */,
+				52CB61C21ADBFCD60020A26D /* CoreLocation.framework */,
+				52CB61C01ADBFCCF0020A26D /* CoreData.framework */,
+				52CB61BE1ADBFCC40020A26D /* AVFoundation.framework */,
+				52CB61BC1ADBFC220020A26D /* GoogleMaps.bundle */,
+				6AE514811ADBB58100FE6188 /* CoreGraphics.framework */,
+				6AE5147F1ADBB57500FE6188 /* UIKit.framework */,
+				52CB61081AD66C4C0020A26D /* Security.framework */,
+			);
+			name = Frameworks;
+			path = AssecoPraksa;
+			sourceTree = "<group>";
+		};
+		6AE514831ADBB64200FE6188 /* Helplers */ = {
+			isa = PBXGroup;
+			children = (
+				6AE514841ADBB64E00FE6188 /* AlertHelper.h */,
+				6AE514851ADBB64E00FE6188 /* AlertHelper.m */,
+			);
+			path = Helplers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520E751C1ADD4F4000BEE523 /* Asseco copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520E75501ADD4F4000BEE523 /* Build configuration list for PBXNativeTarget "Asseco copy" */;
+			buildPhases = (
+				520E751D1ADD4F4000BEE523 /* Sources */,
+				520E753B1ADD4F4000BEE523 /* Frameworks */,
+				520E754A1ADD4F4000BEE523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asseco copy";
+			productName = AssecoPraksa;
+			productReference = 520E75531ADD4F4000BEE523 /* AssecoPraksa copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52CB60BE1AD516D70020A26D /* AssecoPraksa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CB60E21AD516D70020A26D /* Build configuration list for PBXNativeTarget "AssecoPraksa" */;
+			buildPhases = (
+				52CB60BB1AD516D70020A26D /* Sources */,
+				52CB60BC1AD516D70020A26D /* Frameworks */,
+				52CB60BD1AD516D70020A26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssecoPraksa;
+			productName = AssecoPraksa;
+			productReference = 52CB60BF1AD516D70020A26D /* AssecoPraksa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52CB60D71AD516D70020A26D /* AssecoPraksaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CB60E51AD516D70020A26D /* Build configuration list for PBXNativeTarget "AssecoPraksaTests" */;
+			buildPhases = (
+				52CB60D41AD516D70020A26D /* Sources */,
+				52CB60D51AD516D70020A26D /* Frameworks */,
+				52CB60D61AD516D70020A26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52CB60DA1AD516D70020A26D /* PBXTargetDependency */,
+			);
+			name = AssecoPraksaTests;
+			productName = AssecoPraksaTests;
+			productReference = 52CB60D81AD516D70020A26D /* AssecoPraksaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52CB60B71AD516D70020A26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = asseco;
+				TargetAttributes = {
+					52CB60BE1AD516D70020A26D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					52CB60D71AD516D70020A26D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 52CB60BE1AD516D70020A26D;
+					};
+				};
+			};
+			buildConfigurationList = 52CB60BA1AD516D70020A26D /* Build configuration list for PBXProject "AssecoPraksa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				hr,
+			);
+			mainGroup = 52CB60B61AD516D70020A26D;
+			productRefGroup = 52CB60C01AD516D70020A26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52CB60BE1AD516D70020A26D /* AssecoPraksa */,
+				52CB60D71AD516D70020A26D /* AssecoPraksaTests */,
+				520E751C1ADD4F4000BEE523 /* Asseco copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520E754A1ADD4F4000BEE523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E754B1ADD4F4000BEE523 /* Main.storyboard in Resources */,
+				520E754C1ADD4F4000BEE523 /* Localizable.strings in Resources */,
+				520E754D1ADD4F4000BEE523 /* LaunchScreen.xib in Resources */,
+				520E754E1ADD4F4000BEE523 /* Images.xcassets in Resources */,
+				520E754F1ADD4F4000BEE523 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CB60BD1AD516D70020A26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524024EF1AEFA2F100F3E8DC /* DatePickerViewController.xib in Resources */,
+				52CB60CE1AD516D70020A26D /* Main.storyboard in Resources */,
+				52CB60EC1AD51A390020A26D /* Localizable.strings in Resources */,
+				52CB60D31AD516D70020A26D /* LaunchScreen.xib in Resources */,
+				520E75591ADFA99A00BEE523 /* ActivityIndicatorView.xib in Resources */,
+				5280ECD81AF1095200AF4C6C /* TableListPickerController.xib in Resources */,
+				52CB60D01AD516D70020A26D /* Images.xcassets in Resources */,
+				520E755F1ADFBF5200BEE523 /* ASConfigList.plist in Resources */,
+				52CB61BD1ADBFC220020A26D /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CB60D61AD516D70020A26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520E751D1ADD4F4000BEE523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E751E1ADD4F4000BEE523 /* ExchangeRateModel.m in Sources */,
+				520E751F1ADD4F4000BEE523 /* ATMsModel.m in Sources */,
+				520E75201ADD4F4000BEE523 /* JNKeychain.m in Sources */,
+				520E75211ADD4F4000BEE523 /* Status.m in Sources */,
+				520E75221ADD4F4000BEE523 /* LoginViewController.m in Sources */,
+				520E75231ADD4F4000BEE523 /* WorkingHours.m in Sources */,
+				520E75241ADD4F4000BEE523 /* AppDelegate.m in Sources */,
+				520E75251ADD4F4000BEE523 /* JSONModel.m in Sources */,
+				520E75261ADD4F4000BEE523 /* ATMsLocationDetailController.m in Sources */,
+				520E75271ADD4F4000BEE523 /* ATMLocation.m in Sources */,
+				520E75281ADD4F4000BEE523 /* ATMsLocationTableController.m in Sources */,
+				520E75291ADD4F4000BEE523 /* ATMAddress.m in Sources */,
+				520E752A1ADD4F4000BEE523 /* ResponseData.m in Sources */,
+				520E752B1ADD4F4000BEE523 /* Currency.m in Sources */,
+				520E752C1ADD4F4000BEE523 /* ExchangeRateCell.m in Sources */,
+				520E752D1ADD4F4000BEE523 /* Account.m in Sources */,
+				520E752E1ADD4F4000BEE523 /* ATMsMapsViewController.m in Sources */,
+				520E752F1ADD4F4000BEE523 /* TransactionDetailViewController.m in Sources */,
+				520E75301ADD4F4000BEE523 /* APILayer.m in Sources */,
+				520E75311ADD4F4000BEE523 /* ExchangeRateController.m in Sources */,
+				520E75321ADD4F4000BEE523 /* TransactionCell.m in Sources */,
+				520E75331ADD4F4000BEE523 /* TransactionUser.m in Sources */,
+				520E75341ADD4F4000BEE523 /* AlertHelper.m in Sources */,
+				520E75351ADD4F4000BEE523 /* UserData.m in Sources */,
+				520E75361ADD4F4000BEE523 /* TransactionsTableViewController.m in Sources */,
+				520E75371ADD4F4000BEE523 /* ATMLocationsCell.m in Sources */,
+				520E75381ADD4F4000BEE523 /* Transaction.m in Sources */,
+				520E75391ADD4F4000BEE523 /* main.m in Sources */,
+				520E753A1ADD4F4000BEE523 /* ATMsLocationNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CB60BB1AD516D70020A26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CB61641ADBBE8E0020A26D /* ExchangeRateModel.m in Sources */,
+				52F9AB3A1AE0FF3A00D38DBF /* ProfileTableController.m in Sources */,
+				52CB61711ADBBEE80020A26D /* ATMsModel.m in Sources */,
+				52CB61B01ADBD9B00020A26D /* JNKeychain.m in Sources */,
+				52F9AB351AE0FD2D00D38DBF /* ProfileController.m in Sources */,
+				52CB617F1ADBBF7D0020A26D /* Status.m in Sources */,
+				52CB614E1ADBBBA40020A26D /* LoginViewController.m in Sources */,
+				520E755C1ADFB0A500BEE523 /* ActivityIndicatorController.m in Sources */,
+				524024EE1AEFA2F100F3E8DC /* DatePickerViewController.m in Sources */,
+				52CB61721ADBBEE80020A26D /* WorkingHours.m in Sources */,
+				52CB60C81AD516D70020A26D /* AppDelegate.m in Sources */,
+				52A6585A1AF2600F00BBE991 /* FilterData.m in Sources */,
+				52CB618A1ADBBFE10020A26D /* JSONModel.m in Sources */,
+				520E750E1ADD35EB00BEE523 /* ATMsLocationDetailController.m in Sources */,
+				52CB61701ADBBEE80020A26D /* ATMLocation.m in Sources */,
+				520E75111ADD361100BEE523 /* ATMsLocationTableController.m in Sources */,
+				524024F31AEFA8BF00F3E8DC /* FilterTableViewController.m in Sources */,
+				52CB616F1ADBBEE80020A26D /* ATMAddress.m in Sources */,
+				52CB618B1ADBBFE10020A26D /* ResponseData.m in Sources */,
+				52CB615B1ADBBD890020A26D /* Currency.m in Sources */,
+				52CB61B31ADBE18B0020A26D /* ExchangeRateCell.m in Sources */,
+				52CB61521ADBBC2C0020A26D /* Account.m in Sources */,
+				520E75631ADFC9BE00BEE523 /* Helper.m in Sources */,
+				5280ECD71AF1095100AF4C6C /* TableListPickerController.m in Sources */,
+				52CB61B91ADBF3AC0020A26D /* ATMsMapsViewController.m in Sources */,
+				52CB615F1ADBBE1E0020A26D /* TransactionDetailViewController.m in Sources */,
+				52CB614A1ADBBAEB0020A26D /* APILayer.m in Sources */,
+				52CB61B61ADBE27C0020A26D /* ExchangeRateController.m in Sources */,
+				52CB61821ADBBF7D0020A26D /* TransactionCell.m in Sources */,
+				52CB61811ADBBF7D0020A26D /* TransactionUser.m in Sources */,
+				6AE514861ADBB64E00FE6188 /* AlertHelper.m in Sources */,
+				52CB61551ADBBC980020A26D /* UserData.m in Sources */,
+				52CB61831ADBBF7D0020A26D /* TransactionsTableViewController.m in Sources */,
+				520E75181ADD4CC300BEE523 /* ATMLocationsCell.m in Sources */,
+				52CB61801ADBBF7D0020A26D /* Transaction.m in Sources */,
+				524024E91AEE203A00F3E8DC /* SetingsTableViewController.m in Sources */,
+				52CB60C51AD516D70020A26D /* main.m in Sources */,
+				520E75141ADD3DE800BEE523 /* ATMsLocationNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CB60D41AD516D70020A26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CB60DF1AD516D70020A26D /* AssecoPraksaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52CB60DA1AD516D70020A26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52CB60BE1AD516D70020A26D /* AssecoPraksa */;
+			targetProxy = 52CB60D91AD516D70020A26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52CB60CC1AD516D70020A26D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CB60CD1AD516D70020A26D /* Base */,
+				52A6585F1AF798CF00BBE991 /* hr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52CB60D11AD516D70020A26D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CB60D21AD516D70020A26D /* Base */,
+				52CB60E91AD518DB0020A26D /* hr */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		52CB60EE1AD51A390020A26D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CB60ED1AD51A390020A26D /* en */,
+				52CB60EF1AD51A490020A26D /* hr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520E75511ADD4F4000BEE523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AssecoPraksa",
+				);
+				GCC_PREFIX_HEADER = AssecoPraksa/AssecoPraksa.pch;
+				INFOPLIST_FILE = "AssecoPraksa copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "AssecoPraksa copy";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520E75521ADD4F4000BEE523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AssecoPraksa",
+				);
+				GCC_PREFIX_HEADER = AssecoPraksa/AssecoPraksa.pch;
+				INFOPLIST_FILE = "AssecoPraksa copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "AssecoPraksa copy";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52CB60E01AD516D70020A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Damir Guzvinec (B8824HKJN2)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52CB60E11AD516D70020A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52CB60E31AD516D70020A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AssecoPraksa",
+				);
+				GCC_PREFIX_HEADER = AssecoPraksa/AssecoPraksa.pch;
+				INFOPLIST_FILE = AssecoPraksa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52CB60E41AD516D70020A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AssecoPraksa",
+				);
+				GCC_PREFIX_HEADER = AssecoPraksa/AssecoPraksa.pch;
+				INFOPLIST_FILE = AssecoPraksa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52CB60E61AD516D70020A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AssecoPraksaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssecoPraksa.app/AssecoPraksa";
+			};
+			name = Debug;
+		};
+		52CB60E71AD516D70020A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AssecoPraksaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssecoPraksa.app/AssecoPraksa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520E75501ADD4F4000BEE523 /* Build configuration list for PBXNativeTarget "Asseco copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E75511ADD4F4000BEE523 /* Debug */,
+				520E75521ADD4F4000BEE523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CB60BA1AD516D70020A26D /* Build configuration list for PBXProject "AssecoPraksa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CB60E01AD516D70020A26D /* Debug */,
+				52CB60E11AD516D70020A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CB60E21AD516D70020A26D /* Build configuration list for PBXNativeTarget "AssecoPraksa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CB60E31AD516D70020A26D /* Debug */,
+				52CB60E41AD516D70020A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CB60E51AD516D70020A26D /* Build configuration list for PBXNativeTarget "AssecoPraksaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CB60E61AD516D70020A26D /* Debug */,
+				52CB60E71AD516D70020A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52CB60B71AD516D70020A26D /* Project object */;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GoogleDirectionsAPIURL</key>
+	<string>https://maps.googleapis.com/maps/api/distancematrix/json?origins=%@&amp;destinations=%@&amp;mode=walking</string>
+	<key>GoogleDirectionsAPIKey</key>
+	<string>AIzaSyAP5CKoAzMypOmOEjLwUC5GYnyWtA7toCE</string>
+	<key>GoogleMapsAPIKey</key>
+	<string>AIzaSyB19pl6ECzBbHgQyLfTmz5bSeL71fWOLCY</string>
+</dict>
+</plist>

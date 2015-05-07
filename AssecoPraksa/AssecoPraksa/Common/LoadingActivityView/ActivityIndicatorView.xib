@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityIndicatorController">
+            <connections>
+                <outlet property="activityIndicator" destination="SHH-06-Pe9" id="IIv-S4-cVu"/>
+                <outlet property="bezelView" destination="bmX-on-J5k" id="pLJ-gZ-Ejy"/>
+                <outlet property="loadingText" destination="tB5-Jo-N0f" id="Z7d-WJ-Yrl"/>
+                <outlet property="view" destination="5Ox-gl-98C" id="K6K-N8-Kpu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5Ox-gl-98C">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmX-on-J5k">
+                    <rect key="frame" x="85" y="165" width="150" height="150"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="SHH-06-Pe9">
+                            <rect key="frame" x="65" y="65" width="20" height="20"/>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tB5-Jo-N0f">
+                            <rect key="frame" x="37" y="93" width="87" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="SHH-06-Pe9" firstAttribute="centerX" secondItem="bmX-on-J5k" secondAttribute="centerX" id="33j-Rm-0r4"/>
+                        <constraint firstItem="SHH-06-Pe9" firstAttribute="top" secondItem="bmX-on-J5k" secondAttribute="top" constant="65" id="ECG-qj-8VB"/>
+                        <constraint firstItem="SHH-06-Pe9" firstAttribute="centerY" secondItem="bmX-on-J5k" secondAttribute="centerY" id="GIU-xR-VRb"/>
+                        <constraint firstItem="tB5-Jo-N0f" firstAttribute="top" secondItem="SHH-06-Pe9" secondAttribute="bottom" constant="8" symbolic="YES" id="HT2-Yx-kOf"/>
+                        <constraint firstItem="tB5-Jo-N0f" firstAttribute="leading" secondItem="bmX-on-J5k" secondAttribute="leading" constant="37" id="N9a-vh-2kf"/>
+                        <constraint firstItem="SHH-06-Pe9" firstAttribute="leading" secondItem="bmX-on-J5k" secondAttribute="leading" constant="65" id="n3K-UW-Tcb"/>
+                        <constraint firstAttribute="trailing" secondItem="tB5-Jo-N0f" secondAttribute="trailing" constant="26" id="rVW-R7-NGp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.52515388257575757" green="0.52515388257575757" blue="0.52515388257575757" alpha="0.41000000000000003" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="bmX-on-J5k" firstAttribute="centerX" secondItem="5Ox-gl-98C" secondAttribute="centerX" id="G8l-4p-o31"/>
+                <constraint firstItem="bmX-on-J5k" firstAttribute="centerY" secondItem="5Ox-gl-98C" secondAttribute="centerY" id="NEa-Hr-okn"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="291" y="-71"/>
+        </view>
+    </objects>
+</document>

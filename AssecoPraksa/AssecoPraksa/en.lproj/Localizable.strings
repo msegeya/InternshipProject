@@ -1,0 +1,70 @@
+/*
+ Localizable.strings
+ AssecoPraksa
+ 
+ Created by MTLab on 08/04/15.
+ Copyright (c) 2015 asseco. All rights reserved.
+ */
+
+"JSON_Error_msg" = "Error while parsing JSON string!";
+"AUTH_ERROR" = "Wrong E-mail and/or password!";
+
+//Login View
+"loginViewEmailLabel" = "E-mail:";
+"loginViewPasswordLabel" = "Password:";
+"loginViewLoginButton" = "Login";
+"loginViewRememberMeLabel" = "Rememeber me:";
+
+//tabbarcontroler
+
+"tabbarcontrolerProfileTab" = "Profile";
+"tabbarcontrolerAtmTab" = "ATMs Locations";
+"tabbarcontrolerExchangeRateTab" = "Exchange Rates";
+"tabbarcontrolerTransactionTab" = "Transactions";
+"tabbarcontrolerSetingstTab" = "Setings";
+
+//setings view
+"setingsGetNotifications" = "Get notificatins";
+"setingsLanguage" = "Language";
+"setingsContacts" = "Contatcs";
+"setingsLogout" = "Log out";
+
+//ProfileTable view
+
+"profileTableViewNameLabel" = "Name:";
+"profileTableViewAccNumberLabel" = "Account number:";
+"profileTableViewCurencyLabel" = "Currency:";
+"profileTableViewAmountLabel" = "Amount:";
+
+//MapView
+"mapViewListButton" = "List";
+
+//Transaction Cell
+"transactionCellDateLabel" = "Date:";
+"transactionCellAddressLabel" = "Address:";
+"transactionCellAccountLabel" = "Account number:";
+
+//ATM Detail
+"atmDetailDistanceLabel" = "Distance:";
+"atmDetailMonFriLabel" = "Monday - Friday:";
+"atmDetailSaturdayLabel" = "Saturday:";
+
+
+//Transaction Detail
+
+"nameLable" = "Name:";
+"addressLabel" = "Address:";
+"cityLabel" = "City:";
+"accNumberlabel" = "AccountNumber";
+"transferIdLabel" = "Transfer ID:";
+"transferTypeLabel" = "Transfer type:";
+"payDescritptionLabel" = "Payment description";
+"currencyLabel" = "Currency";
+"transactionDetailValueDate" = "Value date:";
+"transactionDetailPostedDate" = "Posted date:";
+"transactionDetailExecutedDate" = "Executed date:";
+"transactionDetailDebt" = "Debt:";
+"transactionDetailStatusState" = "State:";
+"transactionDetailStatusStatusDescription" = "Status description:";
+"transactionDetailEffectiveDate" = "Effective date:";
+

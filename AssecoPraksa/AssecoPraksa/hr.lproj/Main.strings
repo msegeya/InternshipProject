@@ -1,0 +1,365 @@
+
+/* Class = "IBUITabBarItem"; title = "Locations"; ObjectID = "03b-L0-ttO"; */
+"03b-L0-ttO.title" = "Lokacije";
+
+/* Class = "IBUILabel"; text = "Currency"; ObjectID = "0LM-s0-btI"; */
+"0LM-s0-btI.text" = "Valuta";
+
+/* Class = "IBUITextField"; placeholder = "Iznos..."; ObjectID = "1PA-e8-d0n"; */
+"1PA-e8-d0n.placeholder" = "Iznos...";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "1U6-ka-U1P"; */
+"1U6-ka-U1P.text" = "Label";
+
+/* Class = "IBUILabel"; text = "_currency"; ObjectID = "1UI-jl-nxM"; */
+"1UI-jl-nxM.text" = "_currency";
+
+/* Class = "IBUINavigationItem"; title = "Setings"; ObjectID = "1pg-l3-FYt"; */
+"1pg-l3-FYt.title" = "Postavke";
+
+/* Class = "IBUINavigationItem"; title = "Details"; ObjectID = "4V8-Up-ag7"; */
+"4V8-Up-ag7.title" = "Detalji";
+
+/* Class = "IBUILabel"; text = "_eDatum"; ObjectID = "4n1-Uc-Uel"; */
+"4n1-Uc-Uel.text" = "_eDatum";
+
+/* Class = "IBUILabel"; text = "Datum..."; ObjectID = "58c-Rj-hO5"; */
+"58c-Rj-hO5.text" = "Datum...";
+
+/* Class = "IBUILabel"; text = "_Ime"; ObjectID = "6b5-IY-lOa"; */
+"6b5-IY-lOa.text" = "_Ime";
+
+/* Class = "IBUILabel"; text = "_city"; ObjectID = "6xi-n1-svq"; */
+"6xi-n1-svq.text" = "_city";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "7Bd-Yx-ytN"; */
+"7Bd-Yx-ytN.normalTitle" = "Prijavi se";
+
+/* Class = "IBUILabel"; text = "address"; ObjectID = "7L8-pA-bKd"; */
+"7L8-pA-bKd.text" = "address";
+
+/* Class = "IBUISegmentedControl"; 7sH-A5-VPm.segmentTitles[0] = "Normal"; ObjectID = "7sH-A5-VPm"; */
+"7sH-A5-VPm.segmentTitles[0]" = "Normal";
+
+/* Class = "IBUISegmentedControl"; 7sH-A5-VPm.segmentTitles[1] = "Satellite"; ObjectID = "7sH-A5-VPm"; */
+"7sH-A5-VPm.segmentTitles[1]" = "Satellite";
+
+/* Class = "IBUISegmentedControl"; 7sH-A5-VPm.segmentTitles[2] = "Hybrid"; ObjectID = "7sH-A5-VPm"; */
+"7sH-A5-VPm.segmentTitles[2]" = "Hybrid";
+
+/* Class = "IBUILabel"; text = "Executed Datum:"; ObjectID = "9F4-sJ-WXz"; */
+"9F4-sJ-WXz.text" = "Executed Datum:";
+
+/* Class = "IBUILabel"; text = "_Ime"; ObjectID = "9dh-KJ-ebR"; */
+"9dh-KJ-ebR.text" = "_Ime";
+
+/* Class = "IBUILabel"; text = "_middle"; ObjectID = "A7R-TR-LRI"; */
+"A7R-TR-LRI.text" = "_middle";
+
+/* Class = "IBUILabel"; text = "status"; ObjectID = "CDn-pl-Tfx"; */
+"CDn-pl-Tfx.text" = "status";
+
+/* Class = "IBUILabel"; text = "Password:"; ObjectID = "CQJ-JN-sSf"; */
+"CQJ-JN-sSf.text" = "Lozinka:";
+
+/* Class = "IBUILabel"; text = "Account number:"; ObjectID = "CSP-ya-0dZ"; */
+"CSP-ya-0dZ.text" = "Broj računa:";
+
+/* Class = "IBUILabel"; text = "Middle"; ObjectID = "CVY-Ln-7t7"; */
+"CVY-Ln-7t7.text" = "Srednji";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "E5v-gt-0wd"; */
+"E5v-gt-0wd.text" = "Label";
+
+/* Class = "IBUILabel"; text = "creditorAccNumber"; ObjectID = "Eku-Iz-mXh"; */
+"Eku-Iz-mXh.text" = "creditorAccNumber";
+
+/* Class = "IBUIBarButtonItem"; title = " "; ObjectID = "G0w-vs-Tvb"; */
+"G0w-vs-Tvb.title" = " ";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "GDt-zY-8g2"; */
+"GDt-zY-8g2.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "Transactions"; ObjectID = "GMa-yF-cNh"; */
+"GMa-yF-cNh.title" = "Transakcije";
+
+/* Class = "IBUILabel"; text = "Buy/Sell"; ObjectID = "GfG-ub-1bg"; */
+"GfG-ub-1bg.text" = "Kupovni/Prodajni";
+
+/* Class = "IBUINavigationItem"; title = "Currency"; ObjectID = "Hao-0t-vX4"; */
+"Hao-0t-vX4.title" = "Tečaj";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "I1e-jc-8E1"; */
+"I1e-jc-8E1.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Start Datum:"; ObjectID = "ILQ-gl-hhK"; */
+"ILQ-gl-hhK.text" = "Start Datum:";
+
+/* Class = "IBUILabel"; text = "Datum:"; ObjectID = "IbV-AE-ws6"; */
+"IbV-AE-ws6.text" = "Datum:";
+
+/* Class = "IBUILabel"; text = "_sell"; ObjectID = "J82-8y-bk3"; */
+"J82-8y-bk3.text" = "_sell";
+
+/* Class = "IBUINavigationItem"; title = "Filter"; ObjectID = "Jn0-yy-DKQ"; */
+"Jn0-yy-DKQ.title" = "Filtar";
+
+/* Class = "IBUILabel"; text = "Min:"; ObjectID = "KkT-jD-DfM"; */
+"KkT-jD-DfM.text" = "Min:";
+
+"7cP-ns-zcS.title" = "Lokacije";
+
+/* Class = "IBUILabel"; text = "Remember me:"; ObjectID = "L1e-Sj-9sK"; */
+"L1e-Sj-9sK.text" = "Zapamti me:";
+
+/* Class = "IBUILabel"; text = "Address"; ObjectID = "L63-ux-W4x"; */
+"L63-ux-W4x.text" = "Address";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Working hours"; ObjectID = "LPM-0Z-LfK"; */
+"LPM-0Z-LfK.headerTitle" = "Radno vrijeme";
+
+/* Class = "IBUILabel"; text = "Status description:"; ObjectID = "LsZ-vj-I1A"; */
+"LsZ-vj-I1A.text" = "Opis statusa:";
+
+/* Class = "IBUILabel"; text = "_creditorAccNumber"; ObjectID = "Mir-md-4xi"; */
+"Mir-md-4xi.text" = "_creditorAccNumber";
+
+/* Class = "IBUITabBarItem"; title = "Exchange Rates"; ObjectID = "NAv-0J-yoe"; */
+"NAv-0J-yoe.title" = "Exchange Rates";
+
+/* Class = "IBUILabel"; text = "Contacts"; ObjectID = "OKX-Qs-L0r"; */
+"OKX-Qs-L0r.text" = "Kontakt";
+
+/* Class = "IBUILabel"; text = "Transfer ID:"; ObjectID = "Ovg-mj-cx9"; */
+"Ovg-mj-cx9.text" = "Transfer ID:";
+
+/* Class = "IBUILabel"; text = "Monday-Friday:"; ObjectID = "PZg-wc-1Cy"; */
+"PZg-wc-1Cy.text" = "Monday-Friday:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Creditor Information:"; ObjectID = "QIj-kF-VTJ"; */
+"QIj-kF-VTJ.headerTitle" = "Creditor Information:";
+
+/* Class = "IBUILabel"; text = "City:"; ObjectID = "QMY-4S-kZZ"; */
+"QMY-4S-kZZ.text" = "City:";
+
+/* Class = "IBUILabel"; text = "..."; ObjectID = "SW5-v6-bOG"; */
+"SW5-v6-bOG.text" = "...";
+
+/* Class = "IBUILabel"; text = "Currency:"; ObjectID = "Sbf-Bw-zQA"; */
+"Sbf-Bw-zQA.text" = "Valuta:";
+
+/* Class = "IBUILabel"; text = "creditorIme"; ObjectID = "SgB-eo-XM6"; */
+"SgB-eo-XM6.text" = "creditorIme";
+
+/* Class = "IBUITabBarItem"; title = "Profile"; ObjectID = "SiW-lD-7cI"; */
+"SiW-lD-7cI.title" = "Profil";
+
+/* Class = "IBUILabel"; text = "_Iznos"; ObjectID = "TEZ-Ff-Yhb"; */
+"TEZ-Ff-Yhb.text" = "_Iznos";
+
+/* Class = "IBUILabel"; text = "_debit"; ObjectID = "TWf-wD-wAY"; */
+"TWf-wD-wAY.text" = "_debit";
+
+/* Class = "IBUILabel"; text = "Max:"; ObjectID = "TXW-6W-Uhl"; */
+"TXW-6W-Uhl.text" = "Max:";
+
+/* Class = "IBUILabel"; text = "Log out"; ObjectID = "Tnh-mV-JkS"; */
+"Tnh-mV-JkS.text" = "Odjavi se";
+
+/* Class = "IBUILabel"; text = "_state"; ObjectID = "Tnm-3Q-ZTK"; */
+"Tnm-3Q-ZTK.text" = "_state";
+
+/* Class = "IBUILabel"; text = "description"; ObjectID = "UHe-yV-360"; */
+"UHe-yV-360.text" = "description";
+
+/* Class = "IBUILabel"; text = "_pDatum"; ObjectID = "UZi-dE-MWx"; */
+"UZi-dE-MWx.text" = "_pDatum";
+
+/* Class = "IBUILabel"; text = "Language"; ObjectID = "Ure-wD-WAe"; */
+"Ure-wD-WAe.text" = "Language";
+
+/* Class = "IBUILabel"; text = "_debtorAccNumber"; ObjectID = "VPn-Lh-SBL"; */
+"VPn-Lh-SBL.text" = "_debtorAccNumber";
+
+/* Class = "IBUITabBarItem"; title = "Currency"; ObjectID = "VQq-lA-S1q"; */
+"VQq-lA-S1q.title" = "Tečaj";
+
+/* Class = "IBUILabel"; text = "Transfer type:"; ObjectID = "VTC-7K-Def"; */
+"VTC-7K-Def.text" = "Transfer type:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Datum"; ObjectID = "Vdh-nJ-sBf"; */
+"Vdh-nJ-sBf.headerTitle" = "Datum";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "VgY-S1-5GW"; */
+"VgY-S1-5GW.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "Setings"; ObjectID = "Y4e-4v-Q7Q"; */
+"Y4e-4v-Q7Q.title" = "Postavke";
+
+/* Class = "IBUILabel"; text = "ENG"; ObjectID = "YBZ-kM-BJ1"; */
+"YBZ-kM-BJ1.text" = "ENG";
+
+/* Class = "IBUILabel"; text = "City:"; ObjectID = "Yzu-pd-YZJ"; */
+"Yzu-pd-YZJ.text" = "City:";
+
+/* Class = "IBUILabel"; text = "_id"; ObjectID = "ZWh-Dh-aJN"; */
+"ZWh-Dh-aJN.text" = "_id";
+
+/* Class = "IBUILabel"; text = "Adress:"; ObjectID = "b99-o7-gUK"; */
+"b99-o7-gUK.text" = "Adress:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Transaction details:"; ObjectID = "b9A-9w-uW2"; */
+"b9A-9w-uW2.headerTitle" = "Transakcija:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Debtor Information:"; ObjectID = "cJu-Lv-hwp"; */
+"cJu-Lv-hwp.headerTitle" = "Debtor Information:";
+
+/* Class = "IBUILabel"; text = "End Datum:"; ObjectID = "cgl-M8-Hgg"; */
+"cgl-M8-Hgg.text" = "End Datum:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Iznos"; ObjectID = "cj0-Fp-VA3"; */
+"cj0-Fp-VA3.headerTitle" = "Iznos";
+
+/* Class = "IBUILabel"; text = "valueDatum"; ObjectID = "cot-uU-3Va"; */
+"cot-uU-3Va.text" = "valueDatum";
+
+/* Class = "IBUILabel"; text = "E-mail:"; ObjectID = "dA1-he-pSM"; */
+"dA1-he-pSM.text" = "E-mail:";
+
+/* Class = "IBUIButton"; normalTitle = "Confirm"; ObjectID = "dHn-ce-G5F"; */
+"dHn-ce-G5F.normalTitle" = "Confirm";
+
+/* Class = "IBUILabel"; text = "_address"; ObjectID = "dpC-lc-KMJ"; */
+"dpC-lc-KMJ.text" = "_address";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "eEI-if-jvd"; */
+"eEI-if-jvd.text" = "Label";
+
+/* Class = "IBUILabel"; text = "_vDatum"; ObjectID = "eWr-54-zfN"; */
+"eWr-54-zfN.text" = "_vDatum";
+
+/* Class = "IBUIButton"; normalTitle = "Iznos..."; ObjectID = "egx-VB-Zfb"; */
+"egx-VB-Zfb.normalTitle" = "Iznos...";
+
+/* Class = "IBUILabel"; text = "_transfereType"; ObjectID = "fbu-aC-0qg"; */
+"fbu-aC-0qg.text" = "_transfereType";
+
+/* Class = "IBUILabel"; text = "Acount number:"; ObjectID = "fkn-n8-BBG"; */
+"fkn-n8-BBG.text" = "Acount number:";
+
+/* Class = "IBUILabel"; text = "_code"; ObjectID = "gD7-Oz-ASI"; */
+"gD7-Oz-ASI.text" = "_code";
+
+/* Class = "IBUILabel"; text = "Datum..."; ObjectID = "gE0-4h-HRf"; */
+"gE0-4h-HRf.text" = "Datum...";
+
+/* Class = "IBUILabel"; text = "_paymentDescription"; ObjectID = "gLf-gW-tTi"; */
+"gLf-gW-tTi.text" = "_paymentDescription";
+
+/* Class = "IBUIButton"; normalTitle = "List"; ObjectID = "gqP-RN-xJD"; */
+"gqP-RN-xJD.normalTitle" = "List";
+
+/* Class = "IBUILabel"; text = "_Ime"; ObjectID = "gvT-lZ-JfA"; */
+"gvT-lZ-JfA.text" = "_Ime";
+
+/* Class = "IBUILabel"; text = "State:"; ObjectID = "h2I-KD-Igi"; */
+"h2I-KD-Igi.text" = "State:";
+
+/* Class = "IBUILabel"; text = "_effDatum"; ObjectID = "hE0-Bs-7LV"; */
+"hE0-Bs-7LV.text" = "_effDatum";
+
+/* Class = "IBUITabBarItem"; title = "Transactions"; ObjectID = "hne-yU-6ny"; */
+"hne-yU-6ny.title" = "Transakcije";
+
+/* Class = "IBUITabBarItem"; title = "Setings"; ObjectID = "igW-9K-SHj"; */
+"igW-9K-SHj.title" = "Setings";
+
+/* Class = "IBUILabel"; text = "_address"; ObjectID = "j0p-qd-dfN"; */
+"j0p-qd-dfN.text" = "_address";
+
+/* Class = "IBUILabel"; text = "Currency:"; ObjectID = "jIP-wo-Mr5"; */
+"jIP-wo-Mr5.text" = "Valuta:";
+
+/* Class = "IBUILabel"; text = "_buy"; ObjectID = "jVV-2j-1VJ"; */
+"jVV-2j-1VJ.text" = "_buy";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Source Account"; ObjectID = "kXg-9i-aT4"; */
+"kXg-9i-aT4.headerTitle" = "Broj računa";
+
+/* Class = "IBUILabel"; text = "USD"; ObjectID = "lE2-BL-phC"; */
+"lE2-BL-phC.text" = "USD";
+
+/* Class = "IBUINavigationItem"; title = "ATMs"; ObjectID = "lJa-o9-yfP"; */
+"lJa-o9-yfP.title" = "ATMs";
+
+/* Class = "IBUILabel"; text = "Ime:"; ObjectID = "nme-pp-JPu"; */
+"nme-pp-JPu.text" = "Ime:";
+
+/* Class = "IBUILabel"; text = "Posted Datum:"; ObjectID = "nwB-xW-q1h"; */
+"nwB-xW-q1h.text" = "Posted Datum:";
+
+/* Class = "IBUILabel"; text = "Payment description:"; ObjectID = "o3z-66-XAN"; */
+"o3z-66-XAN.text" = "Payment description:";
+
+/* Class = "IBUILabel"; text = "Value Datum:"; ObjectID = "oSu-Al-Tne"; */
+"oSu-Al-Tne.text" = "Value Datum:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Status:"; ObjectID = "p3O-uD-8rt"; */
+"p3O-uD-8rt.headerTitle" = "Status:";
+
+/* Class = "IBUILabel"; text = "_city"; ObjectID = "pKz-RK-qAx"; */
+"pKz-RK-qAx.text" = "_city";
+
+/* Class = "IBUIButton"; normalTitle = "Iznos..."; ObjectID = "qOL-lB-FKo"; */
+"qOL-lB-FKo.normalTitle" = "Iznos...";
+
+/* Class = "IBUILabel"; text = "_accNumb"; ObjectID = "qTE-pU-VHI"; */
+"qTE-pU-VHI.text" = "_accNumb";
+
+/* Class = "IBUILabel"; text = "_statusDescription"; ObjectID = "qkG-ad-JdU"; */
+"qkG-ad-JdU.text" = "_statusDescription";
+
+/* Class = "IBUILabel"; text = "Distance:"; ObjectID = "r2M-iX-rIb"; */
+"r2M-iX-rIb.text" = "Distance:";
+
+/* Class = "IBUITabBarItem"; title = "Transactions"; ObjectID = "rAP-bG-hXr"; */
+"rAP-bG-hXr.title" = "Transakcije";
+
+/* Class = "IBUILabel"; text = "Ime:"; ObjectID = "sao-m4-BiV"; */
+"sao-m4-BiV.text" = "Ime:";
+
+/* Class = "IBUILabel"; text = "Get Notifications"; ObjectID = "shC-gw-kbd"; */
+"shC-gw-kbd.text" = "Get Notifications";
+
+/* Class = "IBUILabel"; text = "Saturday:"; ObjectID = "shF-KP-elT"; */
+"shF-KP-elT.text" = "Saturday:";
+
+/* Class = "IBUILabel"; text = "Account number:"; ObjectID = "tyy-MC-plb"; */
+"tyy-MC-plb.text" = "Account number:";
+
+/* Class = "IBUILabel"; text = "Ime:"; ObjectID = "uTr-ks-QU9"; */
+"uTr-ks-QU9.text" = "Ime:";
+
+/* Class = "IBUILabel"; text = "Address:"; ObjectID = "v1J-kL-QO7"; */
+"v1J-kL-QO7.text" = "Address:";
+
+/* Class = "IBUILabel"; text = "EUR"; ObjectID = "xFf-xh-wgq"; */
+"xFf-xh-wgq.text" = "EUR";
+
+/* Class = "IBUIBarButtonItem"; title = "  "; ObjectID = "xan-2L-x5n"; */
+"xan-2L-x5n.title" = "  ";
+
+/* Class = "IBUILabel"; text = "Acount number:"; ObjectID = "yBB-Lk-PFp"; */
+"yBB-Lk-PFp.text" = "Acount number:";
+
+/* Class = "IBUILabel"; text = "Effective Datum:"; ObjectID = "yKX-nU-OpR"; */
+"yKX-nU-OpR.text" = "Effective Datum:";
+
+/* Class = "IBUITextField"; placeholder = "Iznos..."; ObjectID = "yNg-Gm-74A"; */
+"yNg-Gm-74A.placeholder" = "Iznos...";
+
+/* Class = "IBUILabel"; text = "Debit:"; ObjectID = "ya8-yJ-Z2r"; */
+"ya8-yJ-Z2r.text" = "Debit:";
+
+/* Class = "IBUILabel"; text = "Iznos:"; ObjectID = "zev-Gc-vw7"; */
+"zev-Gc-vw7.text" = "Iznos:";

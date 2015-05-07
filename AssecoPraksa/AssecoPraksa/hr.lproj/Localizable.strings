@@ -1,0 +1,70 @@
+/*
+ Localizable.strings
+ AssecoPraksa
+ 
+ Created by MTLab on 08/04/15.
+ Copyright (c) 2015 asseco. All rights reserved.
+ */
+
+"JSON_Error_msg" = "Greška pri preuzimanja JSON podataka!";
+"AUTH_ERROR" = "Neispravan e-mail i/ili lozinka!";
+
+//Login View
+"loginViewEmailLabel" = "E-mail:";
+"loginViewPasswordLabel" = "Lozinka:";
+"loginViewLoginButton" = "Prijavi se";
+"loginViewRememberMeLabel" = "Zapamti me:";
+
+//tabbarcontroler
+
+"tabbarcontrolerProfileTab" = "Profil";
+"tabbarcontrolerAtmTab" = "Lokacije";
+"tabbarcontrolerExchangeRateTab" = "Exchange Rates";
+"tabbarcontrolerTransactionTab" = "Transakcije";
+"tabbarcontrolerSetingstTab" = "Postavke";
+
+//setings view
+"setingsGetNotifications" = "Primanje notifikacija";
+"setingsLanguage" = "Jezik";
+"setingsContacts" = "Kontakt";
+"setingsLogout" = "Odjavi se";
+
+//ProfileTable view
+
+"profileTableViewNameLabel" = "Ime:";
+"profileTableViewAccNumberLabel" = "Broj računa:";
+"profileTableViewCurencyLabel" = "Valuta:";
+"profileTableViewAmountLabel" = "Iznos:";
+
+//MapView
+"mapViewListButton" = "Popis";
+
+//Transaction Cell
+"transactionCellDateLabel" = "Datum:";
+"transactionCellAddressLabel" = "Adresa:";
+"transactionCellAccountLabel" = "Broj računa:";
+
+//ATM Detail
+"atmDetailDistanceLabel" = "Udaljenost:";
+"atmDetailMonFriLabel" = "Ponedjeljak - Petak:";
+"atmDetailSaturdayLabel" = "Subota:";
+
+
+//Transaction Detail
+
+"nameLable" = "Ime:";
+"addressLabel" = "Adresa:";
+"cityLabel" = "Grad:";
+"accNumberlabel" = "Broj računa";
+"transferIdLabel" = "Id transakcije:";
+"transferTypeLabel" = "Vrsta transkacije:";
+"payDescritptionLabel" = "Opsi plaćanja";
+"currencyLabel" = "Valuta";
+"transactionDetailValueDate" = "Datum valute:";
+"transactionDetailPostedDate" = "Datum objave:";
+"transactionDetailExecutedDate" = "Datum izvršavanja:";
+"transactionDetailDebt" = "Dug:";
+"transactionDetailStatusState" = "Stanje:";
+"transactionDetailStatusStatusDescription" = "Opis:";
+"transactionDetailEffectiveDate" = "Stupa na snagu:";
+
